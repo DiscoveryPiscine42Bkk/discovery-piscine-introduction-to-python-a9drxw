@@ -1,3 +1,5 @@
+from checkmate import checkmate
+
 def main():
     board = """\
 ....
@@ -6,5 +8,6 @@ def main():
 .Q.."""
     checkmate(board)
 
-if name == "main":
+if __name__ == "__main__":
     main()
+    
